@@ -1,10 +1,7 @@
 # 🎮 Retro Design Website
 
-A vibrant and nostalgic **Retro Design Website** built using **HTML**, **CSS**, and **JavaScript**. This project brings a vintage aesthetic to the modern web, with engaging animations powered by **GSAP** and seamless transitions enabled by **Locomotive Scroll**.
-
+A vibrant and nostalgic **Retro Design Website** built using **HTML**, **CSS**, and **JavaScript**. This project brings a vintage aesthetic to the modern web, with engaging animations powered by **GSAP**.
 ## 🚀 Live Demo
-
-[View Live Demo](#) <!-- Replace # with your live demo URL -->
 
 ## 🧰 Tech Stack
 
@@ -12,12 +9,10 @@ A vibrant and nostalgic **Retro Design Website** built using **HTML**, **CSS**, 
 - **CSS3** – Retro-styled responsive design
 - **JavaScript** – DOM interactions and logic
 - **GSAP (GreenSock Animation Platform)** – Smooth and powerful animations
-- **Locomotive Scroll** – Smooth scrolling and parallax effects
 
 ## 📸 Features
 
 - 🎨 Classic retro UI design
-- 🔁 Smooth scroll and parallax effects using Locomotive Scroll
 - ✨ Interactive animations powered by GSAP
 - 📱 Responsive and mobile-friendly layout
 - 🧩 Modular and clean code structure
@@ -25,7 +20,6 @@ A vibrant and nostalgic **Retro Design Website** built using **HTML**, **CSS**, 
 <h1>💡 Credits</h1>
 <ul>
   <li>GSAP</li>
-  <li>Locomotive Scroll</li>
 </ul>
 
 <h1>📬 Contact</h1>
