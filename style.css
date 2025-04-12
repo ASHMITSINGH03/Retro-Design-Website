@@ -20,7 +20,6 @@ body {
     height: 100%;
     width: 100%;
     background-color: #C5BDB3;
-    position: relative;
     overflow: hidden;
 }
 
@@ -258,12 +257,14 @@ body {
     font-size: 100px;
     font-weight: 100;
     letter-spacing: -1px;
+    text-align: center;
 }
 
 #page3 {
     padding-bottom: 100px;
-    position: relative;
     background-color: #C4BCB3;
+    display: flex;
+    justify-content: space-around;
 }
 
 #page3 h1 {
@@ -281,7 +282,6 @@ body {
 
 #page3 img {
     height: 350px;
-    position: absolute;
     top: 0;
     right: 5%;
 }
@@ -289,7 +289,6 @@ body {
 #page4 {
     display: flex;
     padding-bottom: 70px;
-    position: relative;
     background-color: #C4BCB3;
     border-bottom: 1px solid #1c1c19;
 }
@@ -527,7 +526,7 @@ body {
     }
 }
 
-#page7:hover h1{
+#page7:hover h1 {
     animation-play-state: paused;
 }
 
@@ -585,4 +584,257 @@ body {
 
 #footer-social-dot {
     font-size: 45px;
+}
+
+
+@media (max-width: 1024px) {
+    #elems {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+    }
+
+    #elem4 {
+        border: none;
+        text-align: center;
+    }
+
+    #elem1,
+    #elem2,
+    #elem3 {
+        width: 100%;
+        padding: 20px;
+        border: none;
+    }
+
+    #page1 h1 {
+        font-size: 200px;
+        line-height: 200px;
+        letter-spacing: -10px;
+    }
+
+    #page2 {
+        flex-direction: column;
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    #page2-left,
+    #page2-right {
+        width: 100%;
+        padding: 20px 0;
+        border: none;
+    }
+
+    #page2-left h2 {
+        font-size: 90px;
+        line-height: 100px;
+        text-align: center;
+    }
+
+    #page2-left h2 span {
+        font-size: 120px;
+        display: block;
+    }
+
+    #page2-right h2 {
+        font-size: 70px;
+    }
+
+    #page3 {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 60px;
+    }
+
+    #page3 h1 {
+        font-size: 300px;
+        line-height: 270px;
+        margin: 0 auto;
+    }
+
+    #page3 img {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #nav>img,
+    #nav>h5,
+    #nav i {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #page2-left h2 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+
+    #page2-left h2 span {
+        font-size: 90px;
+    }
+
+    #page2-right h2 {
+        font-size: 50px;
+    }
+
+    #page3 h1 {
+        font-size: 200px;
+        line-height: 200px;
+        letter-spacing: -4px;
+    }
+
+    #page3 img {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #page4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #page4-left,
+    #page4-right {
+        width: 100%;
+        border: none;
+        padding: 20px;
+    }
+
+    #page4-left-top {
+        flex-direction: column;
+    }
+
+    #page4-left-top-left,
+    #page4-left-top-right {
+        width: 100%;
+        border-right: none;
+        padding: 0;
+    }
+
+    #page4-left-bottom img {
+        padding: 0;
+        width: 100%;
+    }
+
+    #page4-right h2 {
+        font-size: 42px;
+    }
+
+    #page4-right h2 span {
+        font-size: 88px;
+    }
+
+    #page4-right p {
+        font-size: 20px;
+    }
+
+    #page4-right button {
+        font-size: 32px;
+        height: 20vw;
+        border-radius: 50%;
+    }
+
+    #page5 {
+        flex-direction: column;
+        gap: 20px;
+        padding: 30px 20px;
+    }
+
+    #page5-box {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #page5-box-num {
+        font-size: 16vw;
+        line-height: normal;
+    }
+
+    #page5-box-heading-first {
+        font-size: 4vw;
+        line-height: 1.2;
+    }
+
+    #page5-box-heading-second {
+        font-size: 9vw;
+        line-height: 1.1;
+    }
+}
+
+@media (max-width: 480px) {
+    #page1 h1 {
+        font-size: 120px;
+        line-height: 140px;
+    }
+
+    #page1 #elems #elem2 h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page2-left h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    #page2-left h2 span {
+        font-size: 60px;
+        display: block;
+    }
+
+    #page2 p {
+        font-size: 16px;
+    }
+
+    #page2-right h2 {
+        font-size: 63px;
+    }
+
+    #page3 h1 {
+        font-size: 150px;
+        line-height: 150px;
+        letter-spacing: -2px;
+    }
+
+    #page6 #elems #elem2 h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #page5-box-num {
+        font-size: 15vw;
+    }
+
+    #page4-right h2 {
+        font-size: 36px;
+    }
+
+    #page4-right h2 span {
+        font-size: 72px;
+    }
+
+    #footer {
+        gap: 5px;
+    }
+
+    #footer-info h1 {
+        visibility: hidden;
+        position: absolute;
+    }
 }
