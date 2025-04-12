@@ -1,3 +1,13 @@
+@font-face {
+    font-family: canopee;
+    src: url(./Canopee.ttf);
+}
+
+@font-face {
+    font-family: Editorial New Light;
+    src: url(./Editorial.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
